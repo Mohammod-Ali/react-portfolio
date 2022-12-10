@@ -12,7 +12,7 @@ const Home = () => {
                     <p className='text-gray-200 py-4 max-w-md'>I am a web developer with an amazing ability to develop websites that are both functional and aesthetically pleasing. I have a strong knowledge of web standards and best practices, and I am passionate about creating websites that users will find easy to use.</p>
                     <div>
                         <a href="https://drive.google.com/file/d/1VvUBx7qE9nkEV-s1zOLryHJutkgcuhyy/view?usp=sharing" target={'_blank'} rel="noreferrer">
-                        <button className='btn btn-outline text-white'>
+                        <button className='btn btn-outline md:btn-md lg:btn-lg text-white'>
                             Resume
                             <span className='ml-2'>
                                 <FaDownload></FaDownload>
