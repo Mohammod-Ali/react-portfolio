@@ -5,8 +5,8 @@ import cources from '../../assets/courses.png'
 
 const MyProjects = () => {
   return (
-    <div  className="bg-gradient-to-b from-black via-black to-gray-800 mx-auto md:pl-16 ">
-      <h1 className="text-5xl text-white p-5">My Projects</h1>
+    <div  className="bg-gradient-to-b from-black via-black to-gray-800 mx-auto md:pl-16 pt-20">
+      <h1 className="text-5xl text-white mb-10 font-mono">My Projects</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
