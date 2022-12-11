@@ -15,7 +15,7 @@ const Home = () => {
    
     <Particle></Particle>
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full p-4 md:flex-row ">
-        <div data-aos="fade-up-right" className="flex flex-col justify-center h-full">
+        <div  className="flex flex-col justify-center h-full">
           <h2 className="text-2xl text-white mt-16 font-bold">Hello</h2>
           <h1 className="text-4xl sm:text-6xl font-bold text-white ">
             I'm Mohammod Ali.
@@ -55,7 +55,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div data-aos="fade-up-left" className="mx-auto my-1">
+        <div  className="mx-auto my-1">
           <img
             src={img}
             alt="portfolio"
@@ -65,7 +65,7 @@ const Home = () => {
       </div>
     </div>
     <MyProjects></MyProjects>
-    <ContactForm></ContactForm>
+    <ContactForm ></ContactForm>
     </>
   );
 };

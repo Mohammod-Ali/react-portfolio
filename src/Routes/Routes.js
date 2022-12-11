@@ -3,6 +3,9 @@ import Main from "../Layout/Main";
 import AboutMe from "../Pages/AboutMe/AboutMe";
 import Blogs from "../Pages/Blogs/Blogs";
 import Home from "../Pages/Home/Home";
+import BikeResell from "../Pages/MyProjects/BikeResell";
+import CloudKitchen from "../Pages/MyProjects/CloudKitchen";
+import WebHunt from "../Pages/MyProjects/WebHunt";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +23,18 @@ const router = createBrowserRouter([
             {
                 path: '/blogs',
                 element: <Blogs></Blogs>
+            },
+            {
+                path: '/bikeresell',
+                element: <BikeResell></BikeResell>
+            },
+            {
+                path: '/webhunt',
+                element: <WebHunt></WebHunt>
+            },
+            {
+                path: '/cloudkitchen',
+                element: <CloudKitchen></CloudKitchen>
             }
         ]
     }

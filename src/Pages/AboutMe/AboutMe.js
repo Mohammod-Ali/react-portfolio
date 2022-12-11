@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className="card m-10 bg-neutral">
         <div className="card-body ">
           <p className="text-2xl font-mono ">
-            My name is Mohammod Ali and I am very passionate about Web Development. I have worked as a web developer and
+            My name is Mohammod Ali. I am a student of Pabna University of Science of Technology. I love learning new thing and I am very passionate about Web Development. I have worked as a web developer and
             front-end designer for the past few months. I’m well versed in the
             following coding languages: <b> JavaScript, React.js, Node.js,
             Express.js, MongoDB,</b> and other Web technologies. Also, I have

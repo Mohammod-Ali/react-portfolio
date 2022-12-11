@@ -1,7 +1,8 @@
 import React from "react";
 import bike from '../../assets/bike.png'
 import kitchen from '../../assets/kitchen.png'
-import cources from '../../assets/courses.png'
+import courses from '../../assets/courses.png'
+import { Link } from "react-router-dom";
 
 const MyProjects = () => {
   return (
@@ -18,7 +19,8 @@ const MyProjects = () => {
           <h2 className="card-title">Bike Resale Website</h2>
           <p>This is a full E-Commerce Website.</p>
           <div className="card-actions justify-end">
-            <a target={'_blank'} rel="noreferrer" href="https://bike-resale-2521f.web.app/"> <button className="btn btn-outline text-white">Visit Site</button></a>
+            
+            <Link to='/bikeresell' className="btn btn-outline text-white">About More</Link>
            
           </div>
         </div>
@@ -28,24 +30,27 @@ const MyProjects = () => {
           <img src={kitchen} alt="Bike" />
         </figure>
         <div className="card-body bg-gray-800 text-white">
-          <h2 className="card-title">Bike Resale Website</h2>
+          <h2 className="card-title">Online Food Service Website</h2>
           <p>This is a Food order service Website.</p>
           <div className="card-actions justify-end">
-            <a target={'_blank'} rel="noreferrer" href="https://bike-resale-2521f.web.app/"> <button className="btn btn-outline text-white">Visit Site</button></a>
+           
+            <Link to='/cloudkitchen' className="btn btn-outline text-white">About More</Link>
+
            
           </div>
         </div>
       </div>
       <div data-aos="fade-up" className="card w-96 bg-base-100 shadow-xl">
         <figure>
-          <img src={cources} alt="Cloud kitchen" />
+          <img src={courses} alt="Cloud kitchen" />
         </figure>
         <div className="card-body bg-gray-800 text-white">
           <h2 className="card-title">Course sell Website</h2>
-          <p>This is a online Course selling Website.</p>
+          <p>This is a online Course selling Web Application.</p>
           <div className="card-actions justify-end">
-            <a target={'_blank'} rel="noreferrer" href="https://web-hunt-c84c5.web.app/"> <button className="btn btn-outline text-white">Visit Site</button></a>
            
+            <Link to='/webhunt' className="btn btn-outline text-white">About More</Link>
+
           </div>
         </div>
       </div>
